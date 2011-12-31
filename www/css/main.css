@@ -1,5 +1,5 @@
 body {
-  
+
 }
 
 .font {
@@ -14,20 +14,17 @@ body {
 }
 
 .wrapper {
-  height: 76px; 
-  -webkit-border-radius: 5px; 
+  height: 76px;
+  -webkit-border-radius: 5px;
   border: 1px solid #c6c6c6;
 }
 
 .error {
-  width: 90%; 
-  margin: 0 auto; 
-  padding-top:20px;
+  padding: 20px;
 }
 
 .success {
-  width: 90%; 
-  margin: 0 auto;
+  padding-top: 20px;
 }
 
 .center {
@@ -40,4 +37,8 @@ body {
 
 .footerfix {
   margin: 10px;
+}
+
+.pad_top {
+  padding-top: 10px;
 }
