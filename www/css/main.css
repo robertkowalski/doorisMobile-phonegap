@@ -1,0 +1,43 @@
+body {
+  
+}
+
+.font {
+  text-shadow: 0 1px 0 white;
+  color: -webkit-text;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.bottom {
+  vertical-align: middle;
+}
+
+.wrapper {
+  height: 76px; 
+  -webkit-border-radius: 5px; 
+  border: 1px solid #c6c6c6;
+}
+
+.error {
+  width: 90%; 
+  margin: 0 auto; 
+  padding-top:20px;
+}
+
+.success {
+  width: 90%; 
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.footerfix {
+  margin: 10px;
+}
