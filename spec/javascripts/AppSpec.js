@@ -41,7 +41,7 @@ describe('App functions', function() {
     });
 
     it('should process dateObjects data to a String', function() {
-                                     //status   last_updt   last_chg
+
       var data = App.processTimestamp('1324977736');
 
       expect(data).toEqual('2011-12-27 @ 10:22');
