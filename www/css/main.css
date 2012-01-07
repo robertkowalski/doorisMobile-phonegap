@@ -17,14 +17,11 @@ body {
   height: 76px;
   -webkit-border-radius: 5px;
   border: 1px solid #c6c6c6;
+  margin: 20px;
 }
 
 .error {
-  padding: 20px;
-}
-
-.success {
-  padding-top: 20px;
+  margin: 20px;
 }
 
 .center {

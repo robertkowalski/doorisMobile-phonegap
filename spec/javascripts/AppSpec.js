@@ -48,7 +48,7 @@ describe('App functions', function() {
 
     });
 
-    it('should at a leading 0 to numbers under 10', function() {
+    it('should add a leading 0 to numbers under 10', function() {
 
         expect(App.dateHelper(1)).toEqual('01');
         expect(App.dateHelper(10)).toEqual('10');
@@ -95,7 +95,7 @@ describe('App functions', function() {
 
     });
 
-    it('should render the the dhcp-clientcount in the view', function() {
+    it('should render the dhcp-clientcount in the view', function() {
 
       jasmine.getFixtures().fixturesPath = 'www';
       loadFixtures('index.html')
@@ -106,7 +106,7 @@ describe('App functions', function() {
 
     });
 
-    it('should render the the dhcp-clientcount in the view', function() {
+    it('should render the doorstatus in the view', function() {
 
       jasmine.getFixtures().fixturesPath = 'www';
       loadFixtures('index.html')
@@ -114,6 +114,17 @@ describe('App functions', function() {
       App.updateDoorSuccess("unlocked\n1325107066\n1324977736\n1");
 
       expect($('#doorstatus').find('img').attr('src')).toEqual('images/padlock-open.png');
+
+    });
+    
+    it('should render the "updating-in-progress-status" in the view', function() {
+
+      jasmine.getFixtures().fixturesPath = 'www';
+      loadFixtures('index.html')
+
+      App.setViewToUpdating();
+
+      expect($('#doorstatus').find('img').attr('src')).toEqual('images/time.png');
 
     });
 
